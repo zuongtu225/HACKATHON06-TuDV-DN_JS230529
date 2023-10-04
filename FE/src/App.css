@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border-radius: 4px;
+  width: 80%;
+  background-color: rgb(224, 224, 223);
+  margin: 50px auto;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+header {
+  width: 100%;
+  padding: 5px;
+  color: white;
+  background-color: #07b001;
+}
+
+.hr {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff74;
+}
+footer{
+  padding-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.wrapper-item {
+  
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  color: rgb(3, 3, 3);
+  margin: 5px 0;
+  background-color: rgb(255, 255, 255);
+}
+.item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.action {
+  display: flex;
+  gap: 10px;
+}
+.action input {
+  width: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 20px;
+  
+}
+.icon {
+  position: absolute;
+  bottom: 1px;
+  cursor: pointer;
+  font-size: 20px;
+}
+main {
+  padding: 40px 0 0px 0;
+}
+
+main p {
+  padding: 10px 0;
+  color: white;
+  font-size: 20px;
+}
+.add {
+  display: flex;
+  gap: 2px;
+  position: relative;
+}
+.iconPLus {
+  position: absolute;
+  bottom: 4px;
+  right: 20%;
+  cursor: pointer;
+  font-size: 20px;
+}
+.add input {
+  border-radius: 3px;
+  height: 80px;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+  width: 65%;
+  padding: 10px;
+}
+.add button {
+  font-weight: bold;
+  color: rgb(6, 6, 6);
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+.add button:hover {
+  background-color: #050505;
+  color: aliceblue;
+}
+
+/* check box */
+.click-checkbox {
+}
+.thought {
+  text-decoration: line-through;
+}
